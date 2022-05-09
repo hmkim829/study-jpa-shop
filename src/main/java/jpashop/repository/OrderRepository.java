@@ -9,7 +9,6 @@ import javax.persistence.EntityManager;
 import java.util.List;
 
 @Repository
-@Transactional(readOnly = true)
 @RequiredArgsConstructor
 public class OrderRepository {
 
